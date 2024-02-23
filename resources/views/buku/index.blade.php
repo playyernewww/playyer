@@ -14,9 +14,12 @@
         <div class="container-fluid">
             <div class="col-md-12">
                 <div class="card">
-                    <div class="card-header">
-                        <h3 class="card-title">Buku Table</h3>
-                    </div>
+<div class="card-header">
+    <a href="{{ route('buku.create') }}" class="btn btn-primary float-end">
+        <i class="fas fa-plus"></i> Tambahkan Data
+    </a>
+</div>
+
                     <!-- /.card-header -->
                     <div class="card-body">
                         <table class="table table-bordered">
