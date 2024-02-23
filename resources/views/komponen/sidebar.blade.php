@@ -24,7 +24,7 @@
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
                 data-accordion="false">
                 <li class="nav-item">
-                    <a href="pages/widgets.html" class="nav-link">
+                    <a href="/" class="nav-link">
                         <i class="nav-icon fas fa-house"></i>
                         <p>
                             Dashboard
@@ -36,6 +36,14 @@
                         <i class="nav-icon fas fa-clipboard-user"></i>
                         <p>
                             Petugas
+                        </p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="/buku" class="nav-link">
+                        <i class="nav-icon fas fa-book"></i>
+                        <p>
+                            Buku
                         </p>
                     </a>
                 </li>

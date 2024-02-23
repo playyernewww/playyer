@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class buku extends Model
 {
     use HasFactory;
-    protected $table = "buku";
     protected $fillabe = [
       'judul','penulis','penerbit','tahunterbit'
     ];
